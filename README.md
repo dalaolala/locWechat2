@@ -65,7 +65,7 @@ crontab -e
 */5 * * * * /root/listen.sh
 ```
 
-# centos安装python3
+### centos安装python3
 ```
 curl -O https://www.python.org/ftp/python/3.5.0/Python-3.5.0.tgz
 
