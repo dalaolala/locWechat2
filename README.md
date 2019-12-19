@@ -64,3 +64,24 @@ fi
 crontab -e
 */5 * * * * /root/listen.sh
 ```
+
+# centos安装python3
+```
+curl -O https://www.python.org/ftp/python/3.5.0/Python-3.5.0.tgz
+
+tar xf Python-3.5.0.tgz
+cd Python-3.5.0
+./configure
+make
+sudo make install
+```
+**安装所需要的依赖**
+```
+pip3 install beautifulsoup4
+pip3 install js2py
+pip3 install request
+```
+**运行**
+```
+python3 toWechat3.py
+```
